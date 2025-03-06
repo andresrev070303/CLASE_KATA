@@ -1,5 +1,8 @@
 function puntuacion(p1, p2) {
-  return "Love-Love";
+  if ( p1 === 1 && p2 === 0) {
+    return "15-0";
+  }
+  else return "Love-Love";
 }
 
 export default puntuacion;
